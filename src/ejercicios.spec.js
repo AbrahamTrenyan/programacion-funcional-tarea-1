@@ -153,7 +153,6 @@ describe("Tests", function () {
         { id: "user-176", nombre: "Lucas", edad: 15 },
       ];
       const actual = transformarObjetoEnArray(input);
-
       expect(actual).toEqual(expected);
     });
   });
